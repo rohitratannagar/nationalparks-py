@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-  description: Temp Team A
+  name: development
+  description: development team
 spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: divyanshigupta3295@gmail.com
+    email: dev@gmail.com
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
