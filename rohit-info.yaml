@@ -19,3 +19,14 @@ spec:
     # Intentional no displayName for testing
     email: rohitratannagar2003@gmail.com
   memberOf: [development]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: its-mitesh-kumar
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: miteshkumar@gmail.com
+  memberOf: [development]
