@@ -18,8 +18,20 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: rohitratannagar2003@gmail.com
-  memberOf: [development, Agents]
+  memberOf: [development, Agent]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Agent
+  description: Agent team
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: agent@gmail.com
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
