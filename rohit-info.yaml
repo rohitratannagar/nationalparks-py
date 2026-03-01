@@ -18,7 +18,7 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: rohitratannagar2003@gmail.com
-  memberOf: [development, Agent, group:default/red-hat]
+  memberOf: [development, Agent]
 
 ---
 apiVersion: backstage.io/v1alpha1
